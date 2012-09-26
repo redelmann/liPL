@@ -1,0 +1,11 @@
+
+let map = recfun map f xs ->
+	if (empty xs) then
+		[]
+	else
+		(f (head xs)) :: (map f (tail xs))
+	end
+end
+in
+	(map fun x -> x + 2 end [1, 2, 3])
+end

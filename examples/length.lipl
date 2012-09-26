@@ -1,0 +1,28 @@
+
+let length = recfun length xs ->
+	if (empty xs) then
+		0
+	else
+		1 + (length (tail xs))
+	end
+end
+in
+	let filter = recfun filter f xs ->
+		if (empty xs) then
+			[]
+		else
+			let x = (head xs) in
+				if (f x) then
+					x :: (filter f (tail xs))
+				else
+					(filter f (tail xs))
+				end
+			end
+		end
+	end
+	in
+		(length (filter fun x -> x > 10 end [3, 9, 27, 81])) 
+		=
+		(length (filter fun x -> x end [true, true, false, false]))
+	end
+end

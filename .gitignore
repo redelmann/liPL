@@ -1,5 +1,7 @@
 dist
 cabal-dev
+buildfiles
+lipl
 *.o
 *.hi
 *.chi

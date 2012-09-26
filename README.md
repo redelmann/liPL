@@ -1,7 +1,7 @@
 liPL
 ====
 
-LIST OF FILES
+List of files
 =============
 
 	- src/Main.hs       Main program.
@@ -17,7 +17,7 @@ LIST OF FILES
 	- examples/length.lipl  Example using filter and length.
 	- examples/curry.lipl   Example using map and currification.
 
-HOW TO COMPILE
+How to compile
 ==============
 
 First of, you need to install the Haskell platform, which can be downloaded from http://hackage.haskell.org/platform/ .
@@ -34,7 +34,7 @@ Then, once the installation is done, you can simply compile the program using th
 
 This will compile the haskell program into an executable file called lipl.
 
-TRYING OUT LIPL PROGRAMS
+Trying out liPL programs
 ========================
 
 Once you have compiled lipl, you can evaluate programs simply doing:
